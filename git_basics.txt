@@ -1,0 +1,7 @@
+git add (stages file for comitting)
+git commit -m "this is the initial source code structure checkin"
+
+each commit is a snapshot of the internal repo structure for git
+if files are deleted locally they will also need to be deleted with git rm
+
+after the git rm use git commit
