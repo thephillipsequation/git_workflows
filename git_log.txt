@@ -1,0 +1,22 @@
+git log 
+this lists out all of the commits and checkins for the file
+git log -p -2
+-p shows difference in each commit
+-2 just last 2 entries
+
+
+many times we will want to know statistics around a git log
+git log --stat
+
+when you just want to see commit text and ref points
+gitlog --pretty=oneline
+
+try and use git commit templates to update information and make each commit informative
+
+print host: author name, author email, commit name, commit date, 
+git log --pretty=format:"%h: %an, %ae, %cn, %cd, - %s"
+
+this adds a graph of branches
+git log --pretty=format:"%h: %an, %ae, %cn, %cd, - %s" --graph
+
+Can be used to generated daily reports on commits and changes in git repos
