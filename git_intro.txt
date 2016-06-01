@@ -1,1 +1,13 @@
-test
+perl based which holds deltas
+deltas make up versions of files
+
+
+installing git is easy... yum install git
+
+Admins may want some things configured for local git so users can be identified
+
+git config --global user.name "Root User" # may be configured to identify
+git config --global user.email "root@localhost"
+cat .gifconfig #check output
+
+use git 1.7 or above to make sure you can use new features like external repos
