@@ -1,0 +1,12 @@
+branches and tags are similar but there are specific differences between them
+
+work is always tied to a branch
+
+git tag <tagname>
+git tag (list tags
+git describe --tags (show tags)
+git show <tagname>
+git tag -a v1 -m "Version 1.0 Release"
+
+
+tags are usually used within branches. they are immutable references to particular build states in time. 
