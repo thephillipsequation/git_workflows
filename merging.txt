@@ -1,0 +1,10 @@
+git merge development --no-ff
+
+no ff means retain all commit messages prior to the merge
+
+if working from a clone git push or git pull
+
+to move to remote repo use push
+to pull from remote repo use pull
+
+pull requests mean they will pull from your local directory
