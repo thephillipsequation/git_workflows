@@ -1,0 +1,2 @@
+create .gitignore in local folders to ignore files for the specific repo
+create global git ignore file to git config core.excludes file to have a system level ignore file
