@@ -1,0 +1,7 @@
+create development branch
+git checkout -b development
+
+
+git checkout master (switch back to master)
+
+branches aren't really references to a point in time but a branch of work
