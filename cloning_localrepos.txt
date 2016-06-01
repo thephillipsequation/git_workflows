@@ -1,0 +1,16 @@
+3 ways to make a copy of a git repo:
+   only 2 in this video
+   1 in next video
+   
+  for a local repo use file system and pathing i.e: cp
+  disadvantage here is that it is not linked to the original repo
+  if it's not linked to the original repo any changes are not pushed to the original repo
+
+correct way to have full copy of the repo that is linked is via git
+use git clone <repo1> <destdir>
+
+to synch repos use git pull <repo>
+
+
+
+  
