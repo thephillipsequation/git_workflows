@@ -1,0 +1,19 @@
+What is git config?
+3 types of git config files: 
+  - system level - applies to the whole system (sysem level)
+  - global config - applies to you in general globally (user level)
+  - local config - local trumps global trumps system (repo level)
+
+System config is the least specific because it applies to anyone using the system. 
+Local is in .git of repo you are in
+global is in .gitconfig (see it with git config --list)
+system level is in /etc/gitconfig
+
+Ex:
+git config --global user.name "example"
+git config --system system.name "example"
+git config --global core.editor vim
+
+git config --global core.template (Allows you to create the same header for everyone)
+git config --global core.pager 'more' (switches page iterator from less to more)
+vim gitignoreglobal
