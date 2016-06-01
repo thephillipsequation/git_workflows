@@ -1,0 +1,5 @@
+172.31.109.234
+
+ssh-keygen
+ssh-copyid this allows you to ssh to remote repos without having to enter password
+
