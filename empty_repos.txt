@@ -1,0 +1,19 @@
+all repos intiially created are empty
+
+.git folder is the database of all commits and objects for git
+
+to remove git from the folder just rm -rf .git
+
+git status just tells us what is going on currently with the git repository
+
+git tags give us a reference to each commit that has occured
+
+for this example repo exists in the gittest directory and if a file is changed and then committed two versions of the file will be stored. 
+
+Only one actual file but will have 2 deltas so files can be pushed to where they are.
+
+Takeaways Local Initialization: 
+  - create empty repo
+  - initialize repo
+  - add files to repo
+  - commit repo
